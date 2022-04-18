@@ -6,16 +6,16 @@ import random
 
 minus = "abcdefghijklmnñopqrstuvwxz"
 mayus = minus.upper()
-numeros = ("123456789")
-simbolos = ("!#$%&/()=?¡*][")
+numbers = ("123456789")
+simbols = ("!#$%&/()=?¡*][")
 
-base = minus+mayus+numeros+simbolos
-longitud = 10 
+base = minus+mayus+numbers+simbols
+lenght = 10  ###password length
 
 for _ in range(100):
- M1 = random.sample(minus, longitud)
- contraseña = "".join(M1)
- print(contraseña)
+ M1 = random.sample(minus, lenght)
+ password = "".join(M1)
+ print(password)
 
  
 
