@@ -13,7 +13,7 @@ base = minus+mayus+numbers+simbols
 lenght = 10  ###password length
 
 for _ in range(100):
- M1 = random.sample(minus, lenght)
+ M1 = random.sample(minus, lenght) ###Put base if you want(in minus)
  password = "".join(M1)
  print(password)
 
